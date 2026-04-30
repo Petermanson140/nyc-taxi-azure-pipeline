@@ -30,12 +30,12 @@ analyse 38 million NYC Yellow Taxi trip records from the year 2023 from January-
 - /adf — ADF pipeline exports 
 
 ## Instructions on how to run the NYC Taxi pipeline from start to finish
-1. Set up Azure environment (Storage, Synapse, ADF)
-2. Run ADF pipeline to ingest data into /raw
-3. Run 01_clean_taxi_data notebook to clean and transform data
-4. Run 02_security_anonymisation notebook to anonymise data
-5. Run 03_validation_error_handling notebook to validate data
-6. Run SQL queries in Synapse Serverless SQL pool
+1. Set up the Azure environment (Storage, Synapse, ADF)
+2. Run the ADF pipeline to ingest the data into /raw folder/file
+3. Run 01_clean_taxi_data notebook to clean and transform the data
+4. Run 02_security_anonymisation notebook to anonymise the data
+5. Run 03_validation_error_handling notebook to validate the data
+6. Run the SQL queries in Synapse Serverless SQL pool
 
 ## Analytical Queries
 1. Hourly demand patterns
